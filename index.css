@@ -30,6 +30,8 @@
     height: 85vh;
     margin-top: 1rem;
     margin-left: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .content1{
@@ -38,7 +40,11 @@
     border: 2px solid aqua;
     margin-top: 5px;
     margin-left: 2rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "one one two"
+                        "three four two";
+    grid-area: one;
 }
 
 .image1{
@@ -47,8 +53,79 @@
 }
 
 .new{
-    width: 30%;
-    height: 68vh;
+    width: 80%;
+    height: 58vh;
     border: 2px solid yellow;
-    margin-left:12rem;
+    margin-left:2rem;
+    grid-area: two;
+    font-size: 15px;
+    background-color: #00001a;
+    color: white;
+    padding: 20px;
+}
+
+.bright{
+    margin-top: -40px;
+    width: 80%;
+    font-size: 50px;
+    font-weight: bold;
+    grid-area: three;
+}
+
+.dive{
+    color: #6c6a6d;
+    grid-area: four;
+}
+
+.readmore{
+    width: 40%;
+    height: 20px;
+    border: 2px solid #f15d51;
+    background-color: #f15d51;
+    padding: 10px;
+    color: white;
+    margin-top: 2rem;
+}
+
+.underline1{
+    border: 1px solid #484862;
+}
+
+.underline2{
+    border: 1px solid #484862;
+}
+
+.content2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "one two three";
+}
+
+.reviving{
+    grid-area: one;
+}
+
+.laptops{
+    grid-area: two;
+}
+
+.gaming{
+    grid-area: three;
+}
+
+.contenta{
+    width: 50%;
+    margin-left: 10rem;
+    margin-top: -9rem;
+}
+
+.contentb{
+    width: 50%;
+    margin-left: 10rem;
+    margin-top: -9rem;
+}
+.contentc{
+    width: 50%;
+    margin-left: 10rem;
+    margin-top: -9rem;
 }
