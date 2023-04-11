@@ -3,17 +3,17 @@
 }
 
 .container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 80%;
     height: 100vh;
-    margin-left: 3rem;
-    margin-top: 5px;
+    margin-left: 8rem;
+    margin-top: 2rem;
 }
 
 .nav-bar{
     display: flex;
     margin-top: 8px;    
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-left: 3rem;
     width: 95%;
 }
@@ -25,7 +25,7 @@
 }
 
 .content{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 98%;
     height: 85vh;
     margin-top: 1rem;
@@ -37,7 +37,7 @@
 .content1{
     width: 96.5%;
     height: 70vh;
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     margin-top: 5px;
     margin-left: 2rem;
     display: grid;
@@ -55,7 +55,7 @@
 .new{
     width: 80%;
     height: 58vh;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     margin-left:2rem;
     grid-area: two;
     font-size: 15px;
@@ -80,7 +80,7 @@
 .readmore{
     width: 40%;
     height: 20px;
-    border: 2px solid #f15d51;
+    /* border: 2px solid #f15d51; */
     background-color: #f15d51;
     padding: 10px;
     color: white;
